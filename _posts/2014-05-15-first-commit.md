@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Commit
+title: 台中捷運造成4死4傷
 description: "Its ON, baby"
 headline: "Let's Fire up the Engines"
 categories: personal
@@ -20,7 +20,7 @@ published: true
 >&quot;The beginning is the most important part of the work.&quot;
 ><small><cite title="Plato">Plato</cite></small>
 
-I have been away from the blogging scene for quite a while now, suddenly today it dawned upon me that I need to start writing/posting again. My writing is a little bit rusty now, and I need to brush on that. Anyways, the moment I thought about blogging, Wordpress flashed in my mind. Well, I used Wordpress [^1] in the past and it worked well for a while, then I had to face issues like high-traffic and high CPU load and unexpected spikes in my server. Well, those weren’t too much trouble, I would avoid fixing those bugs if I was busy, and sometimes I would leave the system untouched for 2 days straight and let the server admins frown and try to mitigate the outage (I had a pretty straight forward deal with my hosting provider, that no matter what, they can’t shut down my website). The PHP runtime errors weren’t a big deal, the hundreds of thousands of SQL database queries weren’t a trouble, sometimes the site would run a tad bit slower than average, but it was OK overall for me. A sample of the emails I would receive from my hosting provider is given below:
+台中捷運造成4死4傷重大工安意外4天後，市府今天（13日）上午在市政會議舉行「 捷運綠線公安事件檢討」專案報告，市長林佳龍和全體官員先起立為不幸罹難者默哀後，檢討責任時坦承，未及時發現遠揚公司在白天吊裝鋼梁，但也強調「無要求北捷或遠揚4點前收車」。交通局長王義川報告這份23頁的「台中捷運綠線工安事件專案檢討報告」，提出市府三大疏失，1、坦承市府交通局未及時發現意外事故的吊裝鋼梁工程於日間施行，2、未及時發現意外事故工程，在大型機具進出而暫時拆除圍籬期間，遠揚公司未依規定封閉北屯路部分路段及車道。I have been away from the blogging scene for quite a while now, suddenly today it dawned upon me that I need to start writing/posting again. My writing is a little bit rusty now, and I need to brush on that. Anyways, the moment I thought about blogging, Wordpress flashed in my mind. Well, I used Wordpress [^1] in the past and it worked well for a while, then I had to face issues like high-traffic and high CPU load and unexpected spikes in my server. Well, those weren’t too much trouble, I would avoid fixing those bugs if I was busy, and sometimes I would leave the system untouched for 2 days straight and let the server admins frown and try to mitigate the outage (I had a pretty straight forward deal with my hosting provider, that no matter what, they can’t shut down my website). The PHP runtime errors weren’t a big deal, the hundreds of thousands of SQL database queries weren’t a trouble, sometimes the site would run a tad bit slower than average, but it was OK overall for me. A sample of the emails I would receive from my hosting provider is given below:
 
     tickets@hostgator.com
     10/11/10
