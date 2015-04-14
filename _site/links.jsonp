@@ -71,8 +71,18 @@ callback([
   } ,
 
   {
+    "text": "about sparsity",
+    "href": "/about-sparsity"
+  } ,
+
+  {
     "text": "台中捷運造成4死4傷",
     "href": "/personal/first-commit"
+  } ,
+
+  {
+    "text": "Sparsity",
+    "href": "/personal/sparsity"
   } 
 
 ])
