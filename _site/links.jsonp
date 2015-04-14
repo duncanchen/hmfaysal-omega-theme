@@ -2,12 +2,12 @@ callback([
 
   {
     "text": "about sparsity",
-    "href": "/about-sparsity"
+    "href": "/site/about-sparsity"
   } ,
 
   {
     "text": "Sparsity",
-    "href": "/sparsity"
+    "href": "/ml/sparsity"
   } 
 
 ])

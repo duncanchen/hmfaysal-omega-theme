@@ -3,17 +3,17 @@
 		{
 		  "title"      : "Sparsity",
 		  "category"   : "",
-		  "url"        : "/sparsity",
-		  "date"       : "2014-05-15 00:00:00 -0400",
-		  "shortdate"  : "May 15, 2014"
+		  "url"        : "/ml/sparsity",
+		  "date"       : "2015-04-15 00:00:00 -0400",
+		  "shortdate"  : "April 15, 2015"
 		} ,
 	
 		{
 		  "title"      : "about sparsity",
-		  "category"   : "",
-		  "url"        : "/about-sparsity",
-		  "date"       : "2014-04-13 00:00:00 -0400",
-		  "shortdate"  : "April 13, 2014"
+		  "category"   : "site",
+		  "url"        : "/site/about-sparsity",
+		  "date"       : "2015-04-13 00:00:00 -0400",
+		  "shortdate"  : "April 13, 2015"
 		} 
 	
 ]

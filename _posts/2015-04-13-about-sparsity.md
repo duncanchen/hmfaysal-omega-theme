@@ -3,7 +3,7 @@ layout: post
 title: "about sparsity"
 description:  
 headline: "the conversation"
-category:  
+category:  site
 tags: [site]
 imagefeature: picture-37.jpg 
 comments: true

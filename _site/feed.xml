@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-04-13T23:32:29-04:00</updated>
+<updated>2015-04-13T23:37:42-04:00</updated>
 <id>/</id>
 <author>
   <name>Duncan Chen</name>
@@ -15,10 +15,10 @@
 
 <entry>
   <title type="html"><![CDATA[Sparsity]]></title>
-  <link>/sparsity</link>
-  <id>/sparsity</id>
-  <published>2014-05-15T00:00:00-04:00</published>
-  <updated>2014-05-15T00:00:00-04:00</updated>
+  <link>/ml/sparsity</link>
+  <id>/ml/sparsity</id>
+  <published>2015-04-15T00:00:00-04:00</published>
+  <updated>2015-04-15T00:00:00-04:00</updated>
   <author>
     <name>Duncan Chen</name>
     <uri></uri>
@@ -28,16 +28,16 @@
 
 &lt;p&gt;When the elements of a large matrix are mostly zero, we call it a sparse matrix.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/sparsity&quot;&gt;Sparsity&lt;/a&gt; was originally published by Duncan Chen at &lt;a href=&quot;&quot;&gt;SPARSITY&lt;/a&gt; on May 15, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/ml/sparsity&quot;&gt;Sparsity&lt;/a&gt; was originally published by Duncan Chen at &lt;a href=&quot;&quot;&gt;SPARSITY&lt;/a&gt; on April 15, 2015.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[about sparsity]]></title>
-  <link>/about-sparsity</link>
-  <id>/about-sparsity</id>
-  <published>2014-04-13T00:00:00-04:00</published>
-  <updated>2014-04-13T00:00:00-04:00</updated>
+  <link>/site/about-sparsity</link>
+  <id>/site/about-sparsity</id>
+  <published>2015-04-13T00:00:00-04:00</published>
+  <updated>2015-04-13T00:00:00-04:00</updated>
   <author>
     <name>Duncan Chen</name>
     <uri></uri>
@@ -50,7 +50,7 @@
 &lt;p&gt;“Uh…, let me think it through and I will write it down.”&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;/about-sparsity&quot;&gt;about sparsity&lt;/a&gt; was originally published by Duncan Chen at &lt;a href=&quot;&quot;&gt;SPARSITY&lt;/a&gt; on April 13, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/site/about-sparsity&quot;&gt;about sparsity&lt;/a&gt; was originally published by Duncan Chen at &lt;a href=&quot;&quot;&gt;SPARSITY&lt;/a&gt; on April 13, 2015.&lt;/p&gt;</content>
 </entry>
 
 </feed>
