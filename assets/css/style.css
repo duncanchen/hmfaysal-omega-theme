@@ -556,7 +556,7 @@ html {
 }
 /* - Post Avatar - */
 .post-avatar {
-  max-width: 150px;
+  max-width: 100px;
   margin: 0 auto 12px;
 }
 /* -  Pagination - */
@@ -787,7 +787,7 @@ h3.lighter,
 h4.lighter,
 h5.lighter,
 h6.lighter {
-  font-weight: 200 !important;
+  font-weight: 500 !important;
 }
 /* ---------- */
 /* ANIMATIONS */
