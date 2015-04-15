@@ -17,7 +17,7 @@ Description: Awesome dude, awesome life
 -->
 <head>
 <meta charset="utf-8">
-<title>Sparsity &#8211; SPARSITY</title>
+<title>PCA, a new kid is in town &#8211; SPARSITY</title>
 <meta name="description" content="">
 <meta name="keywords" content="sparsity, PCA">
 
@@ -25,14 +25,14 @@ Description: Awesome dude, awesome life
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="/images/tokyo.jpg">
 
-<meta name="twitter:title" content="Sparsity">
+<meta name="twitter:title" content="PCA, a new kid is in town">
 <meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@duncanchen">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Sparsity">
+<meta property="og:title" content="PCA, a new kid is in town">
 <meta property="og:description" content="">
 <meta property="og:url" content="/ml/sparsity">
 <meta property="og:site_name" content="SPARSITY">
@@ -120,10 +120,6 @@ Description: Awesome dude, awesome life
                  </li>
 
             <li>
-                    <a href="/documentation"><i class="icon-book"></i> Documentation</a>
-                 </li>
-
-            <li>
                     <a href="/categories">Categories</a>
                  </li>
 
@@ -181,7 +177,7 @@ Description: Awesome dude, awesome life
                     <header class="post-header entry-header">
                     <div class="cursive">this post is featured</div>
                         
-                        <h1 class="post-title text-center hyper lighter bordered-bottom entry-title" itemprop="headline">Sparsity</h1>
+                        <h1 class="post-title text-center hyper lighter bordered-bottom entry-title" itemprop="headline">PCA, a new kid is in town</h1>
                         
                         <div class="cursive" style="color: #000; font-style:italic;"></div>
                         <div class="post-info text-center small">
@@ -193,7 +189,10 @@ Description: Awesome dude, awesome life
                         
                         <p>“Sparse?”</p>
 
-<p>When the elements of a large matrix are mostly zero, we call it a sparse matrix.</p>
+<p>When most elements of a relative matrix are zero, we may say this matrix sparse. We often prefer the matries to be sparse, because they can be stored with less memory and computed faster with dedicate data structure and algorithms. Essentially, sparse encoding is a technique which convert a dense (data) matrix to sparse matrix. This may sound just like principal component analysis, PCA. However, the two have totally different approaches.</p>
+
+<p>Consider an 100-question survey, when 500 samples’ data collected it can be represented as a 100 by 500 matrix. Experience tells us, often time the questions are interrelated. Sometime, several questions are even asking the same things but in different ways. Intuitively, we know this is not a 100-dimension problem. Let’s say it is an x-dimension problem. We cannot just pick x most important questions out of the 100, because questions are relative, or in statistic jargon, dependent. PCA is a technique to helps to find the x dimensions.</p>
+
 
                         <br>
                     
@@ -213,7 +212,7 @@ Description: Awesome dude, awesome life
     </p>
     <ul class="social-mini">
         <li>
-            <a href="https://twitter.com/intent/tweet?text=&quot;Sparsity&quot;%20/ml/sparsity%20via%20&#64;duncanchen"
+            <a href="https://twitter.com/intent/tweet?text=&quot;PCA, a new kid is in town&quot;%20/ml/sparsity%20via%20&#64;duncanchen"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter" itemprop="Twitter">
                 <i class="icon-twitter"></i>
             </a>
@@ -275,12 +274,6 @@ Description: Awesome dude, awesome life
             <li>
                 
                     <a href="/"><i class="icon-home"></i></a>&nbsp;&bull;
-                 
-            </li>
-            
-            <li>
-                
-                    <a href="/documentation"><i class="icon-book"></i> Documentation</a>&nbsp;&bull;
                  
             </li>
             

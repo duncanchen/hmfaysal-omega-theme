@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,700);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,100,700);
 @import url(http://fonts.googleapis.com/css?family=Sacramento);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
 
 /*!
  * HMFAYSAL OMEGA v1.0.1
@@ -755,7 +756,7 @@ html {
 /* THEME FONTS */
 /* ----------- */
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Ubuntu Mono', 'Merriweather', serif;
 }
 body input,
 body textarea,

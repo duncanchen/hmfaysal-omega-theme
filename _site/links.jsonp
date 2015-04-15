@@ -6,7 +6,7 @@ callback([
   } ,
 
   {
-    "text": "Sparsity",
+    "text": "PCA, a new kid is in town",
     "href": "/ml/sparsity"
   } 
 
