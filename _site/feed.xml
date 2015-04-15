@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-04-15T00:55:35-04:00</updated>
+<updated>2015-04-15T00:57:38-04:00</updated>
 <id>/</id>
 <author>
   <name>Duncan Chen</name>
@@ -28,7 +28,7 @@
 
 &lt;p&gt;When most elements of a relative matrix are zero, we may say this matrix sparse. We often prefer the matries to be sparse, because they can be stored with less memory and computed faster with dedicate data structure and algorithms. Essentially, sparse encoding is a technique which convert a dense (data) matrix to sparse matrix. This may sound just like principal component analysis, PCA. However, the two have totally different approaches.&lt;/p&gt;
 
-&lt;p&gt;Consider an 100-question survey, when 500 samples’ data collected it can be represented as a 100 by 500 matrix. Experience tells us, often time the questions are interrelated. Sometime, several questions are even asking the same things but in different ways. Intuitively, we know this is not a 100-dimension problem. Let’s say it is an x-dimension problem. We cannot just pick x most important questions out of the 100, because questions are relative, or in statistic jargon, dependent. PCA is a technique to helps to find the x dimensions.&lt;/p&gt;
+&lt;p&gt;Consider a 100-question survey, when 500 samples’ data collected it can be represented as a 100 by 500 matrix. Experience tells us, often time the questions are interrelated. Sometime, several questions are even asking the same things but in different ways. Intuitively, we know this is not a 100-dimension problem. Let’s say it is an x-dimension problem. We cannot just pick x most important questions out of the 100, because questions are relative, or in statistic jargon, dependent. PCA is a technique to helps to find the x dimensions.&lt;/p&gt;
 
 
   &lt;p&gt;&lt;a href=&quot;/ml/sparsity&quot;&gt;PCA, a new kid is in town&lt;/a&gt; was originally published by Duncan Chen at &lt;a href=&quot;&quot;&gt;SPARSITY&lt;/a&gt; on April 15, 2015.&lt;/p&gt;</content>
