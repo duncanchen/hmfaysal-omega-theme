@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42b78a38-d087-4061-9bf3-13a0b993b2af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/favicon.ico" afterPath="$PROJECT_DIR$/_site/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/favicon.png" afterPath="$PROJECT_DIR$/favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/favicon.png" afterPath="$PROJECT_DIR$/_site/favicon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/categories/index.html" afterPath="$PROJECT_DIR$/_site/categories/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/documentation/index.html" afterPath="$PROJECT_DIR$/_site/documentation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/featured/index.html" afterPath="$PROJECT_DIR$/_site/featured/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/ml/sparsity/index.html" afterPath="$PROJECT_DIR$/_site/ml/sparsity/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/site/about-sparsity/index.html" afterPath="$PROJECT_DIR$/_site/site/about-sparsity/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/pageminimal.html" afterPath="$PROJECT_DIR$/_layouts/pageminimal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/assets/css/style.css" afterPath="$PROJECT_DIR$/_site/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sparsity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,16 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.222222" vertical-offset="74318" max-vertical-offset="77216">
-              <caret line="3926" column="29" selection-start-line="3926" selection-start-column="29" selection-end-line="3926" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,13 +111,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3579202" vertical-offset="1123" max-vertical-offset="2375">
+            <state vertical-scroll-proportion="31.6" vertical-offset="948" max-vertical-offset="2375">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/favicon.ico">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -155,7 +146,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="173" />
+    <option name="y" value="36" />
     <option name="width" value="1920" />
     <option name="height" value="977" />
   </component>
@@ -197,6 +189,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sparsity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparsity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparsity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,7 +276,47 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -290,7 +336,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="977" extended-state="0" />
+    <frame x="173" y="36" width="1920" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -408,10 +454,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3579202" vertical-offset="1123" max-vertical-offset="2375">
+        <state vertical-scroll-proportion="31.6" vertical-offset="948" max-vertical-offset="2375">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
