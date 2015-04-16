@@ -382,7 +382,7 @@ h6,
   color: #1e1e1f;
 }
 a {
-  color: #807f83;
+  color: #b91f49;
   border-color: #807f83;
 }
 a:hover {
@@ -787,7 +787,8 @@ h3.lighter,
 h4.lighter,
 h5.lighter,
 h6.lighter {
-  font-weight: 500 !important;
+  font-weight: 300 !important;
+  color: #B91F49;
 }
 /* ---------- */
 /* ANIMATIONS */
@@ -3923,7 +3924,7 @@ a#slide.slide:after{
 #sidebar #navigation li a{
     padding:0 0 18px;
     font:700 16px/1em ;
-	font-family: "Consolas";
+	font-family: "Ubuntu Mono";
     text-transform: uppercase;;
     color:#b3b3b1
     }
