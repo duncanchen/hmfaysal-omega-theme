@@ -194,13 +194,16 @@ tags: [machine learning, statistics, programming]
 	                <div class="post-body bordered-bottom">
 	                {% assign excerptsize = post.excerpt | number_of_words %}
 	                {% if excerptsize <= 100 and excerptsize >= 50 %}<p class = "lead">{{ post.excerpt | strip_html }}&hellip;</p>{% else %}
-	                    <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>{% endif %}
+	                    <p>{{ post.content | truncatewords: 50 }}&hellip;</p>{% endif %}
+
 	                    <div class="text-center">
 	                    {% if post.description %}
+							<! -- here1-->
 		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
 		                    <i class="icon-link"></i> read more...
 		                </a>
 		                {% else %}
+							<!-- here2 -->
 		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="more-link btn btn-danger btn-large">
 		                    <i class="icon-link"></i> read more...
 		                </a>
@@ -381,10 +384,12 @@ tags: [machine learning, statistics, programming]
 	                    <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
 	                    <div class="text-center">
 	                    {% if post.description %}
+							<!-- 1 -->
 		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
 		                    <i class="icon-link"></i> read more...
 		                </a>
 		                {% else %}
+							<!-- 2 -->
 		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="more-link btn btn-danger btn-large">
 		                    <i class="icon-link"></i> read more...
 		                </a>
@@ -418,12 +423,14 @@ tags: [machine learning, statistics, programming]
 	                    <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>{% endif %}
 	                    <div class="text-center">
 	                    {% if post.description %}
+							<!-- 3 -->
 		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
-		                    <i class="icon-link"></i> read more...
+		                    <i class="icon-link"></i>  read more...
 		                </a>
 		                {% else %}
+							<!-- 4 -->
 		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="more-link btn btn-danger btn-large">
-		                    <i class="icon-link"></i> read more...
+		                    <i class="icon-link"></i>  read more...
 		                </a>
 		                {% endif %}
 		                </div>

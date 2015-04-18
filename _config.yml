@@ -20,6 +20,8 @@ fin_color:        "255,255,255"
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:       	"" #	   /hmfaysal-omega-theme
 
+
+
 # Owner/author information
 owner:
   name:           Duncan Chen
