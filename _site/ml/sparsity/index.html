@@ -167,20 +167,30 @@
                         <div class="cursive" style="color: #000; font-style:italic;"></div>
                         <div class="post-info text-center small">
                             <span class="entry-date date published updated"><time datetime="2015-04-15T00:00:00-04:00" class="post-time" itemprop="datePublished">15 Apr 2015</time><span>
-                            in <span class="post-tags"><a href="/categories/index.html#ml" data-toggle="tooltip" title="Other posts from the Ml category" rel="tag">Ml</a></span>&nbsp;<span class="post-tags"><i class="icon-time"></i>&nbsp;<span class="time">1.765</span> minutes read</span>
+                            in <span class="post-tags"><a href="/categories/index.html#ml" data-toggle="tooltip" title="Other posts from the Ml category" rel="tag">Ml</a></span>&nbsp;<span class="post-tags"><i class="icon-time"></i>&nbsp;<span class="time">1.54</span> minutes read</span>
                         </div>
                     </header>
                     <div class="post-body bordered-bottom" itemprop="description">
                         
-                        <p>How far will you guess the Principal Component Analysis, PCA, can be traced back? According to <a href="http://imedea.uib-csic.es/master/cambioglobal/Modulo_V_cod101615/Theory/lit_support/pca_wold.pdf" title="Title">this article</a>, PCA was developed in early 20 century, 1901 to be exactly. It started gaining the popularity in 1930s.  Since then, it has been widely applied in the social science researches. But don’t think PCA a less rigid methodology because of its popularity in social science. In fact, PCA is derived from solid mathematical method. Can we explain PCA with less jargons as possible?   I’d like to give it a try.</p>
+                        <p>How far will you guess the Principal Component Analysis, PCA, can be traced back? PCA <a href="http://imedea.uib-csic.es/master/cambioglobal/Modulo_V_cod101615/Theory/lit_support/pca_wold.pdf" target="_blacnk">was developed</a> in early 20 century, 1901 to be exactly. It started gaining the popularity in 1930s. Since then, it has been widely applied in the social science researches. But don’t think PCA a less rigid methodology because of its application in social science. In fact, PCA is derived from solid mathematical methods. Can we explain PCA with as less jargons as possible?   I’d like to give it a try.</p>
 
-<p>PCA belongs to a category of statistical method, called multiple variable analysis. By multiple, it can be a lot. Say we conduct an online survey of 100 questions and that’s 100 variables or dimensions.  Experience tells us that often time the questions were interrelated. Sometime, several questions were even asking the same things but in different ways. Intuitively, we know this is not a 100-dimension problem. But how do we get it down to less dimensions?  That’s where PCA comes in. It provides a way to reduce the original problem to less dimensions.  That’s why PCA is also referred as a dimension reduction method.</p>
+<p>PCA belongs to a category of statistical method, called multiple variable analysis. By multiple, it can be a lot. Say we conduct an online survey of 100 questions and that’s 100 variables or dimensions.  Experience tells us that often time the questions were interrelated. Sometime, several questions were even asking the same things but in different ways. Intuitively, we know this is not a 100-dimension problem. But how do we get it down to less dimensions?  That’s where PCA comes in. It provides a way to reduce the original problem to less dimensions. I would say the first thing we need to remember of PCA is it is dimension reduction method. It implies some information may get ignored after the dimension reduced. These bring two challenges to us:</p>
 
-<p>When most elements of a relative matrix are zero, we may say this matrix sparse. We often prefer the matries to be sparse, because they can be stored with less memory and computed faster with dedicate data structure and algorithms. Essentially, sparse encoding is a technique which convert a dense (data) matrix to sparse matrix. This may sound just like principal component analysis, PCA. However, the two have totally different approaches.</p>
+<ol>
+  <li>
+    <p>Preserve the information as much as possible.</p>
+  </li>
+  <li>
+    <p>Find a ranking method, so we can select the important few.</p>
+  </li>
+</ol>
 
-<!--more-->
+<p>The key to these challenge is <em>transportaion</em>.  </p>
 
-<p>Consider a 100-question survey, when 500 samples’ data collected it can be represented as a 100 by 500 matrix. Experience tells us, often time the questions are interrelated. Sometime, several questions are even asking the same things but in different ways. Intuitively, we know this is not a 100-dimension problem. Let’s say it is an x-dimension problem. We cannot just pick x most important questions out of the 100, because questions are relative, or in statistic jargon, dependent. PCA is a technique to helps to find the x dimensions.</p>
+<p>To a that, we can combine the original variables to create a new set of variables, exactly the same number as the original. This new set of variables, </p>
+
+<p>As to determine which dimensions to stay, we of course like keep as much information as possible – the information can explain the <em>difference</em> among the data.<br />
+&gt;FTo manifest the  the The selected dimension formed a subspace, in mathematical term.</p>
 
 
                         <br>
