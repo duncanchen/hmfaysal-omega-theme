@@ -18,6 +18,7 @@
 /* - Body typography - */
 body {
   -webkit-font-smoothing: antialiased;
+  font-size: 21px;
 }
 /* - Headers - */
 h1,

@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-04-18T00:11:16-04:00</updated>
+<updated>2015-04-19T01:49:08-04:00</updated>
 <id>/</id>
 <author>
   <name>Duncan Chen</name>
@@ -24,9 +24,11 @@
     <uri></uri>
     <email>duncanchen(at)gmail.com</email>
   </author>
-  <content type="html">&lt;p&gt;“Sparse?”&lt;/p&gt;
+  <content type="html">&lt;p&gt;How far will you guess the Principal Component Analysis, PCA, can be traced back? According to &lt;a href=&quot;http://imedea.uib-csic.es/master/cambioglobal/Modulo_V_cod101615/Theory/lit_support/pca_wold.pdf&quot; title=&quot;Title&quot;&gt;this article&lt;/a&gt;, PCA was developed in early 20 century, 1901 to be exactly. It started gaining the popularity in 1930s.  Since then, it has been widely applied in the social science researches. But don’t think PCA a less rigid methodology because of its popularity in social science. In fact, PCA is derived from solid mathematical method. Can we explain PCA with less jargons as possible?   I’d like to give it a try.&lt;/p&gt;
 
-&lt;p&gt;When most elements of a relative matrix are zero, we may say this matrix sparse. We often prefer the matries to be sparse, because they can be stored with less memory and computed faster with dedicate data structure and algorithms. Essentially, sparse encoding is a technique which convert a dense (data) matrix to sparse matrix. This may sound just like principal component analysis, PCA. However, the two have totally different approaches.&lt;/p&gt;
+&lt;p&gt;PCA belongs to a category of statistical method, called multiple variable analysis. By multiple, it can be a lot. Say we conduct an online survey of 100 questions and that’s 100 variables or dimensions.  Experience tells us that often time the questions were interrelated. Sometime, several questions were even asking the same things but in different ways. Intuitively, we know this is not a 100-dimension problem. But how do we get it down to less dimensions?  That’s where PCA comes in. It provides a way to reduce the original problem to less dimensions.  That’s why PCA is also referred as a dimension reduction method. &lt;/p&gt;
+
+&lt;p&gt;When most elements of a relative matrix are zero, we may say this matrix sparse. We often prefer the matries to be sparse, because they can be stored with less memory and computed faster with dedicate data structure and algorithms. Essentially, sparse encoding is a technique which convert a dense (data) matrix to sparse matrix. This may sound just like principal component analysis, PCA. However, the two have totally different approaches. &lt;/p&gt;
 
 &lt;!--more--&gt;
 
