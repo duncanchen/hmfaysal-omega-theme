@@ -757,7 +757,7 @@ html {
 /* THEME FONTS */
 /* ----------- */
 body {
-  font-family: 'Ubuntu Mono', 'Merriweather', serif;
+  font-family:  'Merriweather', serif;
 }
 body input,
 body textarea,
@@ -772,7 +772,8 @@ body button {
   font-weight: 300 !important;
 }
 .lead {
-  font-weight: 400;
+  font-weight: 800;
+  font-family: 'Ubuntu Mono', 'Merriweather', serif;
 }
 h1,
 h2,
