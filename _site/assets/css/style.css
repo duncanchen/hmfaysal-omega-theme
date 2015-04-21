@@ -772,7 +772,8 @@ body button {
   font-weight: 300 !important;
 }
 .lead {
-  font-weight: 800;
+  font-weight: 600;
+  font-size: 24px;
   font-family: 'Ubuntu Mono', 'Merriweather', serif;
 }
 h1,
