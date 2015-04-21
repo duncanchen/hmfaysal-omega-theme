@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-04-20T01:16:34-04:00</updated>
+<updated>2015-04-21T00:52:20-04:00</updated>
 <id>/</id>
 <author>
   <name>Duncan Chen</name>
@@ -24,15 +24,15 @@
     <uri></uri>
     <email>duncanchen(at)gmail.com</email>
   </author>
-  <content type="html">&lt;p&gt;How far will you guess the Principal Component Analysis, PCA, can be traced back? PCA &lt;a href=&quot;http://imedea.uib-csic.es/master/cambioglobal/Modulo_V_cod101615/Theory/lit_support/pca_wold.pdf&quot; target=&quot;_blacnk&quot;&gt;was developed&lt;/a&gt; in early 20 century, 1901 to be exactly. It started gaining the popularity in 1930s. Since then, it has been widely applied in the social science researches. But don’t think PCA a less rigid methodology because of its application in social science. In fact, PCA is derived from solid mathematical methods. Can we explain PCA with as less jargons as possible?    &lt;/p&gt;
+  <content type="html">&lt;p&gt;How far will you guess the Principal Component Analysis, PCA, can be traced back? PCA &lt;a href=&quot;http://imedea.uib-csic.es/master/cambioglobal/Modulo_V_cod101615/Theory/lit_support/pca_wold.pdf&quot; target=&quot;_blacnk&quot;&gt;was developed&lt;/a&gt; in early 20 century, 1901 to be exactly. It started gaining the popularity in 1930s. Since then, it has been widely applied in the social science researches. But don’t think PCA a less rigid methodology because of its application in social science. In fact, PCA is derived from solid mathematical methods. Can we explain PCA with as less jargons as possible?&lt;/p&gt;
 
-&lt;p&gt;Let’s make an analogy first.  Suppose we like to study every fish’s position inside a tank. We are restricted to use a projector and its projection to collect data.   However, we can place the projector any place we like. In this example, we force ourselves using 2 dimensional data to study 3 dimension world. Therefore, the projector’s position is big a deal, because a worse choice may not be able to reveal the relative position among the fish.     &lt;/p&gt;
+&lt;p&gt;Let’s make an analogy first.  Suppose we like to study every fish’s position inside a tank. We are restricted to use a projector and its projection to collect data.   However, we can place the projector any place we like. In this example, we force ourselves using 2 dimensional data to study 3 dimension world. Therefore, the projector’s position is big a deal, because a worse choice may not be able to reveal the relative position among the fish.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://bit.ly/1O6zLn6&quot; alt=&quot;dimesion-projection&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Back to PCA. PCA belongs to a category of statistical method, called multiple variable analysis. By multiple, it can be a lot. Say we conduct an online survey which is made of 100 questions and that’s 100 variables or dimensions. (The fish lives in 100 dimension world) Experience tells us that often time the questions were interrelated. Sometime, several questions were even asking the same things but in different ways. Intuitively, we know we don’t need to treat is as a 100-dimension problem. But how do we get it down to less dimensions? In our analogy, where should we put our projector? Furthermore, what is the reasonable dimension of the final projection? That’s where PCA comes in to answer these questions.  PCA helps us reduce a high dimensional problem to a low dimension problem. Hence, the first thing we need to remember of PCA is it is a dimension reduction method. &lt;/p&gt;
+&lt;p&gt;Back to PCA. PCA belongs to a category of statistical method, called multiple variable analysis. By multiple, it can be a lot. Say we conduct an online survey which is made of 100 questions and that’s 100 variables or dimensions. (The fish lives in 100 dimension world) Experience tells us that often time the questions were interrelated. Sometime, several questions were even asking the same things but in different ways. Intuitively, we know we don’t need to treat is as a 100-dimension problem. But how do we get it down to less dimensions? In our analogy, where should we put our projector? Furthermore, what is the reasonable dimension of the final projection? That’s where PCA comes in to answer these questions.  PCA helps us reduce a high dimensional problem to a low dimension problem. Hence, the first thing we need to remember of PCA is it is a dimension reduction method.&lt;/p&gt;
 
-&lt;p&gt;Step 1, we need to position the projector, right?  In fact, we don’t. We can fix the projector’s position and rotate the fish tank instead.  Both will have same effect.    &lt;/p&gt;
+&lt;p&gt;Step 1, we need to position the projector, right?  In fact, we don’t. We can fix the projector’s position and rotate the fish tank instead.  Both will have same effect.&lt;/p&gt;
 
 &lt;p&gt;(Unfinished)&lt;/p&gt;
 
