@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-04-25T02:33:10-04:00</updated>
+<updated>2015-04-26T18:22:59-04:00</updated>
 <id>/</id>
 <author>
   <name>Duncan Chen</name>
@@ -24,15 +24,19 @@
     <uri></uri>
     <email>duncanchen(at)gmail.com</email>
   </author>
-  <content type="html">&lt;p&gt;How far will you guess the Principal Component Analysis, PCA, can be traced back? PCA &lt;a href=&quot;http://imedea.uib-csic.es/master/cambioglobal/Modulo_V_cod101615/Theory/lit_support/pca_wold.pdf&quot; target=&quot;_blacnk&quot;&gt;was developed&lt;/a&gt; in early 20 century, 1901 to be exactly. It started gaining the popularity in 1930s. Since then, it has been widely applied in the social science researches. But don’t think PCA a less rigid methodology because of its application in social science. In fact, PCA is derived from solid mathematical methods. Can we explain PCA with as less jargons as possible?&lt;/p&gt;
-
-&lt;p&gt;Let’s make an analogy first.  Suppose we like to study every fish’s position inside a tank. We are restricted to use a projector and its projection to collect data.   However, we can place the projector any place we like. In this example, we force ourselves using 2 dimensional data to study 3 dimension world. Therefore, the projector’s position is big a deal, because a worse choice may not be able to reveal the relative position among the fish.&lt;/p&gt;
+  <content type="html">&lt;p&gt;How far will you guess the Principal Component Analysis, PCA, can be traced back? PCA &lt;a href=&quot;http://imedea.uib-csic.es/master/cambioglobal/Modulo_V_cod101615/Theory/lit_support/pca_wold.pdf&quot; target=&quot;_blacnk&quot;&gt;was developed&lt;/a&gt; in early 20 century, 1901 to be exactly. It started gaining the popularity in 1930s. Since then, it has been widely applied in the social science researches. But don’t think PCA a less rigid methodology because of its application in social science. In fact, PCA is derived from solid mathematical methods. Can we explain PCA with as less jargons as possible?    &lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://bit.ly/1O6zLn6&quot; alt=&quot;dimesion-projection&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Back to PCA. PCA belongs to a category of statistical method, called multiple variable analysis. By multiple, it can be a lot. Say we conduct an online survey which is made of 100 questions and that’s 100 variables or dimensions. (The fish lives in 100 dimension world) Experience tells us that often time the questions were interrelated. Sometime, several questions were even asking the same things but in different ways. Intuitively, we know we don’t need to treat is as a 100-dimension problem. But how do we get it down to less dimensions? In our analogy, where should we put our projector? Furthermore, what is the reasonable dimension of the final projection? That’s where PCA comes in to answer these questions.  PCA helps us reduce a high dimensional problem to a low dimension problem. Hence, the first thing we need to remember of PCA is it is a dimension reduction method.&lt;/p&gt;
+&lt;p&gt;Let’s start with an analogy first.  Say we like to study a group of fish, which live inside a tank, in particular their position relative to one another. However there is one problem, we are restricted to use a projector and its projection to collect data.  Luckily we still can place the projector any angle we like. If we think in data dimension, we restrict ourselves using 2 dimensional data to study 3 dimension world. Therefore, the projector’s position is big a deal, because a worse choice may not be able to reveal the relative position among the fish.     &lt;/p&gt;
 
-&lt;p&gt;Step 1, we need to position the projector, right?  In fact, we don’t. We can fix the projector’s position and rotate the fish tank instead.  Both will have same effect.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://bit.ly/1JId4Pz&quot; alt=&quot;position&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We now turn to a real world scenario like our analogy. Say we conducted a survey, which consists of 100 questions—we have a 100-dimensional fish tank. We can treat the collected data just as 100-dimension data point, but in practice we really do for a couple of reasons. First, often time a questionnaire is designed to have multiple questions for a same topic. The answers of these question are likely highly correlated. Besides it will be redundant, including highly correlated variables in data may also lead to high estimate error. (That’s a topic for another day.) Second, we may intuitively believe there are some hidden structures among the variables.  Where can be place our projector over the data, so we can preserve great separation among the data? And how many dimensions does the final projections have? &lt;/p&gt;
+
+&lt;p&gt;This is where PCA comes is. PCA belongs to a category of statistical method, called multiple variable analysis. In particular, it is a method for dimension reduction. First to the projector position problem, we need to place the projector, right?  In fact, we don’t. We can fix the projector’s position and rotate the data, or the fish tank, instead.  Both will have same effect. The rotation of data is merely a coordinate transform from one to another. Hence in this stage, we have not reduced the dimension yet. To effectively reduce the dimension, we need the new coordinates be orthogonal. Orthogonal coordinates allow us to sort the axes by the difference each axis reveals or account for. As you may have guessed, the number of axes we select is the number of dimensions of the projection. This is why PCA called “Principle”, because it only takes the major coordinates revealing sufficient difference among data. The “Component” in PCA is just another name for coordinate.     &lt;/p&gt;
+
+&lt;p&gt;So to sum up PCA, it is a dimension reduction method. It greatly simplify the complexity of the large-dimension problem. While we have reduce the problem to less dimension, each new dimension, i.e. a principal component, is still a linear combination of original variable. This may have some disadvantage for interpretation. &lt;/p&gt;
 
 &lt;p&gt;(Unfinished)&lt;/p&gt;
 
