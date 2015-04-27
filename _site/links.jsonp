@@ -1,8 +1,8 @@
 callback([
 
   {
-    "text": "about sparsity",
-    "href": "/site/about-sparsity"
+    "text": "PCA, More or Less",
+    "href": "/ml/PCA-more-or-less"
   } ,
 
   {
