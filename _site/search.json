@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Sparse Coding, the idea of Spasity",
+		  "category"   : "",
+		  "url"        : "/ml/2015-04-26-sparse-coding",
+		  "date"       : "2015-04-27 00:32:17 -0400",
+		  "shortdate"  : "April 27, 2015"
+		} ,
+	
+		{
 		  "title"      : "PCA, More or Less",
 		  "category"   : "",
 		  "url"        : "/ml/PCA-more-or-less",

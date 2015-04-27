@@ -4,13 +4,47 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-04-26T23:07:28-04:00</updated>
+<updated>2015-04-27T00:32:18-04:00</updated>
 <id>/</id>
 <author>
   <name>Duncan Chen</name>
   <uri>/</uri>
   <email>duncanchen(at)gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Sparse Coding, the idea of Spasity]]></title>
+  <link>/ml/2015-04-26-sparse-coding</link>
+  <id>/ml/2015-04-26-sparse-coding</id>
+  <published>2015-04-27T00:32:17-04:00</published>
+  <updated>2015-04-27T00:32:17-04:00</updated>
+  <author>
+    <name>Duncan Chen</name>
+    <uri></uri>
+    <email>duncanchen(at)gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;how fo we describe the idea soraisty?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://bit.ly/1EaD3hg&quot; alt=&quot;dimesion-projection&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;subtractive-color-model&quot;&gt;Subtractive Color Model&lt;/h2&gt;
+&lt;p&gt;This color model is typically used for printing. By applying ink, the amount of white from the paper is reduced or subtracted. Cyan, Magenta and Yellow are the subtractive color primaries. Combining these three colors produces a muddy brownish black.  To achieve a better blacks and to save ink, black (K) was added to the mix. The CMYK model is used for print.&lt;/p&gt;
+
+&lt;h2 id=&quot;color-printer-cartridge&quot;&gt;Color Printer Cartridge&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://bit.ly/1EaFsbP&quot; alt=&quot;cartridge&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pantone-code&quot;&gt;Pantone Code&lt;/h2&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=0zcX06hgNEg&lt;/p&gt;
+
+&lt;p&gt;14 COLORS 
+https://www.youtube.com/watch?v=xOrW9cOkLe4&lt;/p&gt;
+
+&lt;p&gt;he color matching system consists of 15 intermixable colors t
+https://www.youtube.com/watch?v=Xc39H_z05l4&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/ml/2015-04-26-sparse-coding&quot;&gt;Sparse Coding, the idea of Spasity&lt;/a&gt; was originally published by Duncan Chen at &lt;a href=&quot;&quot;&gt;SPARSITY&lt;/a&gt; on April 27, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

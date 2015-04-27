@@ -8,6 +8,11 @@ callback([
   {
     "text": "PCA, More or Less",
     "href": "/ml/PCA-more-or-less"
+  } ,
+
+  {
+    "text": "Sparse Coding, the idea of Spasity",
+    "href": "/ml/2015-04-26-sparse-coding"
   } 
 
 ])
