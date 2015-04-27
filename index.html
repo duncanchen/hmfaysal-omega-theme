@@ -194,7 +194,7 @@ tags: [machine learning, statistics, programming]
 	                <div class="post-body bordered-bottom">
 	                {% assign excerptsize = post.excerpt | number_of_words %}
 	                {% if excerptsize <= 100 and excerptsize >= 50 %}<p class = "lead">{{ post.excerpt | strip_html }}&hellip;</p>{% else %}
-	                    <p>{{ post.content | truncatewords: 50 }}&hellip;</p>{% endif %}
+	                    <p class="lead">{{ post.content | truncatewords: 50 }}&hellip;<!--else--></p>{% endif %}
 
 	                    <div class="text-center">
 	                    {% if post.description %}
