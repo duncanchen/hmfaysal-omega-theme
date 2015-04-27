@@ -1,19 +1,19 @@
 [
 	
 		{
-		  "title"      : "PCA, a new kid is in town",
-		  "category"   : "",
-		  "url"        : "/ml/sparsity",
-		  "date"       : "2015-04-15 00:00:00 -0400",
-		  "shortdate"  : "April 15, 2015"
-		} ,
-	
-		{
 		  "title"      : "PCA, More or Less",
 		  "category"   : "",
 		  "url"        : "/ml/PCA-more-or-less",
 		  "date"       : "2015-04-15 00:00:00 -0400",
 		  "shortdate"  : "April 15, 2015"
+		} ,
+	
+		{
+		  "title"      : "about sparsity",
+		  "category"   : "site",
+		  "url"        : "/site/about-sparsity",
+		  "date"       : "2015-04-13 00:00:00 -0400",
+		  "shortdate"  : "April 13, 2015"
 		} 
 	
 ]
