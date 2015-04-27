@@ -31,3 +31,10 @@ https://www.youtube.com/watch?v=xOrW9cOkLe4
 
 he color matching system consists of 15 intermixable colors t
 https://www.youtube.com/watch?v=Xc39H_z05l4
+
+
+
+color formula
+http://bit.ly/1z4fx6A
+
+
