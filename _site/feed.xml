@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-04-26T22:03:39-04:00</updated>
+<updated>2015-04-26T22:15:35-04:00</updated>
 <id>/</id>
 <author>
   <name>Duncan Chen</name>
@@ -59,19 +59,28 @@
 
 &lt;p&gt;&lt;img src=&quot;http://bit.ly/1O6zLn6&quot; alt=&quot;dimesion-projection&quot; /&gt;&lt;/p&gt;
 
+&lt;h2 id=&quot;ananlogy&quot;&gt;Ananlogy&lt;/h2&gt;
 &lt;p&gt;Let’s start with an analogy first.  Say we like to study a group of fish, which live inside a tank, by recording their position relative to one another. However there is one problem, we are restricted to use a projector and its projection to collect data.  Luckily we still can place the projector any angle we like. Dimension wise, this condition restrict ourselves using 2 dimensional data to study 3 dimension world, despite each of the two dimension is still made out of the original three dimensions.  Under such a restriction, the projector’s position is big a deal, because a bad position is not able to reveal the relative position among the fish.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://bit.ly/1JId4Pz&quot; alt=&quot;position&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;We now turn to a real world scenario similar to the analogy. Say we conduct a survey, which consists of 100 questions—a 100-dimensional fish tank. We can perform analytics as 100 variable models, but we rarely do so in practice, for a couple of reasons. First, often time a questionnaire is designed to have multiple questions for a same topic. The answers of these question are highly correlated. Not only it will be redundant, it is also lead to large estimate error if highly correlated variables exist. (That’s a topic for another day.) Second, we may believe there are some hidden structures among the variables. Each of the hidden variables is still made of the original variables, however we may be able to explain the data better through the hidden variables, or structure.  Therefore there are two questions: 
-1.	Where can be place our projector over the data, so we can preserve great separation among the data?&lt;/p&gt;
+&lt;p&gt;We now turn to a real world scenario similar to the analogy. Say we conduct a survey, which consists of 100 questions—a 100-dimensional fish tank. We can perform analytics as 100 variable models, but we rarely do so in practice, for a couple of reasons. First, often time a questionnaire is designed to have multiple questions for a same topic. The answers of these question are highly correlated. Not only it will be redundant, it is also lead to large estimate error if highly correlated variables exist. (That’s a topic for another day.) Second, we may believe there are some hidden structures among the variables. Each of the hidden variables is still made of the original variables, however we may be able to explain the data better through the hidden variables, or structure.  Therefore there are two questions:&lt;/p&gt;
 
 &lt;ol&gt;
+  &lt;li&gt;Where can be place our projector over the data, so we can preserve great separation among the data?&lt;/li&gt;
   &lt;li&gt;How many dimensions does the final projections have?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;This is where PCA comes is. PCA belongs to a category of statistical method, called multiple variable analysis. In particular, it is a method of dimension reduction. First to the projector position problem, we need to place the projector, right?  In fact, we don’t. We fix the projector’s position and rotate the data, or the fish tank, instead.  This has the same effect. The rotation of data is merely a coordinate transform from one (basis of the vector space) to another. Hence in this stage, we have not reduced the dimension yet. To effectively reduce the dimension, the new coordinates has be orthogonal. Orthogonal coordinates allow us to sort the axes by the difference each axis reveals or account for. As you may have guessed, the number of axes we select is the number of dimensions of the projection. This is why PCA called “Principle”, because it only takes the major coordinates revealing sufficient difference among data. The “Component” in PCA is just another name for coordinate.&lt;/p&gt;
+&lt;h2 id=&quot;pca&quot;&gt;PCA&lt;/h2&gt;
 
+&lt;p&gt;This is where PCA comes is. PCA belongs to a category of statistical method, called multiple variable analysis. In particular, it is a method of dimension reduction. It solves the problems we proposed the following way:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First to the projector position problem, we need to place the projector, right?  In fact, we don’t. We fix the projector’s position and rotate the data, or the fish tank, instead.  This has the same effect. The rotation of data is merely a coordinate transform from one (basis of the vector space) to another. Notice in this stage, we have not reduced the dimension yet.&lt;/li&gt;
+  &lt;li&gt;To effectively reduce the dimension, the new coordinates has be orthogonal. Orthogonal coordinates allow us to sort the axes by the difference each axis reveals or account for. As you may have guessed, the number of axes we select is the number of dimensions of the projection. This is why PCA called “Principle”, because it only takes the major coordinates revealing sufficient difference among data. The “Component” in PCA is just another name for coordinate.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;So to sum up PCA, it is a dimension reduction method. It greatly simplifies the complexity of the large-dimension problem. The principal components may give us insight of the underlying variable structures, but not guarantee. Because while we have reduce the problem to less dimension, each new dimension, i.e. a principal component, is still a linear combination of all original variables. When original variables evenly appear in new basis, it will still be hard to interpret. To avoid this trouble, Sparse PCA is developed.  We will look into the idea, Sparsity, in next post.&lt;/p&gt;
 
 
