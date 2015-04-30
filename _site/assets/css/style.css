@@ -379,8 +379,11 @@ h3,
 h4,
 h5,
 h6,
-.lead {
+{
   color: #b91f49;
+}
+.lead {
+  color: #333333;
 }
 a {
   color: #b91f49;
@@ -783,6 +786,14 @@ h4,
 h5,
 h6 {
   font-family: 'Raleway', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #B91F49;
 }
 h1.lighter,
 h2.lighter,
@@ -4059,4 +4070,4 @@ body.slide{
         }
 
 
-/*      End-Responsive      */                         
+/*      End-Responsive      */
