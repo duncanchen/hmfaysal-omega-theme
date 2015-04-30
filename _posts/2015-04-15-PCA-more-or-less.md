@@ -40,4 +40,3 @@ This is where PCA comes is. PCA belongs to a category of statistical method, cal
 So to sum up PCA, it is a dimension reduction method. It greatly simplifies the complexity of a large-dimension problem. The principal components may give us insight of the underlying variable structures, but it is not a guarantee. Because, while we have reduced the problem to fewer dimensions, each new dimension-- i.e. a principal component-- is still a linear combination of all the original variables. When original variables appear evenly in the new basis, they are still hard to interpret. To avoid this trouble, Sparse PCA was developed. We will look into the idea, Sparsity, in the next post.
        
 
-
